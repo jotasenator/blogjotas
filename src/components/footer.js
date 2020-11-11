@@ -5,17 +5,18 @@ import { useTranslation } from 'react-i18next';
 import PaypalButton from './paypalButton';
 
 
+
 const Footer = () => {
     const { t, i18n } = useTranslation('global');
 
     return (
+
         <div className='footer'>
 
             <div>
                 <div className='jotas'>
                     <li><p>Blog de j</p><p className='rotate'>oTa</p><p>s</p></li>
                 </div>
-
             </div>
             <div className='iconsDIV'>
                 <div className='icons'>
@@ -33,12 +34,10 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>{t('footer.p1')} 2020.</div>
-                <PaypalButton />
             </div>
-            <div>
-
-            </div>
+            <PaypalButton />
         </div >
+
 
     )
 }

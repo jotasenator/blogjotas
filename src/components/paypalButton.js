@@ -6,9 +6,7 @@ const PaypalButton = () => {
 
     return (
         <div className='paypal' >
-
-
-
+            Invítame a un guarapo
         </div >
 
     )

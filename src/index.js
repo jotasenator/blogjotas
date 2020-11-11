@@ -17,9 +17,16 @@ import global_it from './translations/it/global.json'
 import global_ru from './translations/ru/global.json'
 import global_fr from './translations/fr/global.json'
 
+const listedLanguages = ['es', 'en', 'fr', 'it', 'pt', 'de', 'ru', 'hi', 'ja', 'zh']
+let language = navigator.language.split('-')[0]
+
+if (!listedLanguages.includes(language)) {
+  language = 'en'
+}
+
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: 'es',
+  lng: language,
   resources: {
     //iso 639-1
     es: {
