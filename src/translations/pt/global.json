@@ -1,0 +1,19 @@
+{
+    "inicio":{
+        "p1":"enhorabuena",
+        "p2":"Vou compartilhar imediatamente com você uma das maneiras possíveis de aprender uma linguagem de programação.",
+        "p3":"Vou falar com você por experiência própria e espero que seja útil para você.",
+        "p4":"Um curso remunerado ou um diploma universitário são boas opções, MAS se você ainda não decidiu ou não é do seu interesse no momento as informações que apresento serão as mais atraentes.",
+        "p5":"Aqui você encontrará livros, sites, dicas, exemplos de código. Tudo de forma organizada para que você decida o que fazer e como.",
+        "p6":"Se eu posso, confie em mim, você também pode. Você pode até melhorar o caminho e apontá-lo para aqueles que vierem depois de você.",
+        "p7":"Talvez um dia você resolva algo assim e veja que a magia existe:"
+    },
+    "navBar":{
+        "p1":"Começar",
+        "p2":"Contate-me"
+    },
+    "footer":{
+        "p1":"Outubro"
+    }
+
+}

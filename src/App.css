@@ -1,0 +1,185 @@
+html {
+  margin-right: 10px;
+}
+/*navBar*/
+.navBar ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  background-color: #333;
+  border: 5px solid #333333;
+  user-select: none;
+}
+.navBar ul a {
+  text-decoration: none;
+  color: #999;
+  display: block;
+  padding: 15px;
+  margin: 0 5px;
+}
+.navBar ul a:hover,
+.navBar ul a:focus {
+  background-color: #fff;
+  color: #222;
+  border-radius: 5px;
+}
+.toRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  right: 50px;
+}
+.me {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+.jotas {
+  padding: 0 20px;
+}
+.jotas li {
+  display: flex;
+  flex-direction: row;
+  padding: 0 15px;
+  user-select: none;
+  border: solid white;
+  border-radius: 15px;
+}
+.jotas li p {
+  background-color: #333333;
+  color: white;
+}
+.rotate {
+  animation: jotas 10s infinite;
+}
+@keyframes jotas {
+  0% {
+    transform: rotate(360deg);
+  }
+  5% {
+    transform: rotate(0deg);
+  }
+}
+/*container*/
+.container {
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+/*dentro de container*/
+
+p,
+ol,
+ul {
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  color: #333;
+  word-wrap: break-word;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: justify;
+}
+.pRef-inicio {
+  text-align: left;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: blue;
+}
+li {
+  padding: 5px;
+}
+/*slider*/
+.sliderSize {
+  width: 50%;
+  height: 450px;
+  float: right;
+  margin-left: 15px;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.insidePic {
+  height: 387px;
+}
+
+/*form*/
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+form:focus-within {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 5px #999;
+}
+input,
+textarea {
+  font-size: 20px;
+  color: #333;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  border-radius: 5px;
+}
+textarea {
+  height: 250px;
+}
+.enviar {
+  background-color: white;
+}
+.enviar:hover {
+  background-color: #333333;
+  color: white;
+}
+/*leaflet map*/
+.map {
+  margin-top: 15px;
+  width: 100%;
+  height: 500px;
+}
+.leaflet-container {
+  width: 100%;
+  height: 500px;
+}
+.toTop {
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.buttonToTop {
+  transform: scale(2);
+}
+.buttonToTop:hover {
+  cursor: pointer;
+  color: gray;
+  transform: scale(2.5);
+}
+/*footer*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  bottom: 0;
+  margin-top: 50px;
+  padding: 5px 5px;
+  background-color: #333333;
+  height: 100px;
+  color: #999;
+  width: 100%;
+}

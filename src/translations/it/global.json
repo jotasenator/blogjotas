@@ -1,0 +1,19 @@
+{
+    "inicio":{
+        "p1":"congratulazioni",
+        "p2":"Condividerò immediatamente con voi uno dei possibili modi in cui puoi imparare un linguaggio di programmazione.",
+        "p3":"Ti parlerò della mia esperienza e spero che ti sarà utile.",
+        "p4":"Un corso a pagamento o una laurea sono opzioni super valide MA se non hai ancora deciso o non è di tuo interesse al momento le informazioni che presento saranno le più allettanti.",
+        "p5":"Qui troverai libri, siti Web, suggerimenti, esempi di codice. Tutto in modo organizzato in modo da poter decidere cosa fare e come.",
+        "p6":"Se posso, credimi, puoi farlo anche tu. Puoi persino migliorare il percorso e segnalarlo a coloro che verranno dopo di te.",
+        "p7":"Forse un giorno risolverai qualcosa del genere e vedrai che la magia esiste:"
+    },
+    "navBar":{
+        "p1":"Inizio",
+        "p2":"Contattami"
+    },
+    "footer":{
+        "p1":"Ottobre "
+    }
+
+}

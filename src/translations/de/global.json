@@ -1,0 +1,20 @@
+{
+    "inicio":{
+        "p1":"willkommen",
+        "p2":"Ich werde Ihnen sofort eine der möglichen Möglichkeiten mitteilen, wie Sie können eine Programmiersprache lernen.",
+        "p3":"Ich werde aus meiner Erfahrung mit Ihnen sprechen und hoffe, dass es Ihnen hilfreich sein wird.",
+        "p4":"Ein bezahlter Kurs oder ein Universitätsabschluss sind super gültige Optionen, ABER wenn Sie sich noch nicht entschieden haben oder es im Moment nicht von Ihrem Interesse ist, sind die Informationen, die ich präsentiere, am attraktivsten.",
+        "p5":"Hier finden Sie Bücher, Websites, Tipps, Codebeispiele. Alles auf organisierte Weise, damit Sie entscheiden können, was und wie zu tun ist.",
+        "p6":"Wenn ich kann, glauben Sie mir, können Sie auch. Sie können den Pfad sogar verbessern und darauf hinweisen an diejenigen, die nach dir kommen.",
+        "p7":"Vielleicht werden Sie eines Tages so etwas lösen und sehen, dass Magie existiert:"
+    },
+    "navBar":{
+        "p1":"Start",
+        "p2":"Kontaktiere mich"
+    },
+    "footer":{
+        "p1":"Oktober "
+    }
+
+
+}

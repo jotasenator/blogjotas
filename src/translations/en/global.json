@@ -1,0 +1,19 @@
+{
+    "inicio":{
+        "p1":"congratulations",
+        "p2":"I will immediately share with you one of the possible ways in which you can learn a programming language.",
+        "p3":"I will speak to you from my experience and I hope it will be helpful to you.",
+        "p4":"A paid course or university degree are super valid options BUT if you have not decided yet or it is not of your interest at the moment, the information that I present will be most attractive to you.",
+        "p5":"Here you will find books, websites, tips, code samples. All in shape organized so you can decide what to do and how.",
+        "p6":"If I can, believe me, you can too. You can even improve the path and point it out to those who come after you.",
+        "p7":"Maybe one day you will solve something like this and you will see that magic does exists:"
+    },
+    "navBar":{
+        "p1":"Home",
+        "p2":"Contact me"
+    },
+    "footer":{
+        "p1":"October "
+    }
+
+}
