@@ -18,7 +18,6 @@ const Navbar = () => {
                 <li><NavLink to='/python'>Python</NavLink></li>
                 <li><NavLink to='/javascript'>Javascript</NavLink></li>
                 <div className='toRight'>
-
                     <li><NavLink to='/contacto'>{t('navBar.p2')}</NavLink></li>
                     <li><Me /></li>
                 </div>
