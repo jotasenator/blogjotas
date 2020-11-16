@@ -12,7 +12,8 @@ export default function Page404() {
             <div>
                 <h1>{t('page404.p1')}</h1>
                 <div className='locationMSG'>
-                    <div>{locations.pathname}</div> <h2>{t('page404.p2')}</h2>
+                    <div>{locations.pathname}</div>
+                    <h2>{t('page404.p2')}</h2>
                 </div>
                 <Link to="/" className='link'>
                     {t('page404.p3')}

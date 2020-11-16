@@ -16,8 +16,8 @@
         "p1":"十月"
     },
     "page404":{
-        "p1":"404 - Not Found! ",
-        "p2":" does not exists... ",
+        "p1":"404 - 未找到! ",
+        "p2":" 不存在... ",
         "p3":"开始"
     },
     "contacto":{
@@ -32,6 +32,16 @@
     "mapView":{
         "p1":"嗨！ "
 
+    },
+    "buttonTop":{
+        "p1":"向上"
+
+    },
+    "metaTags":{
+        "p1":"学习Python和JavaScript的热门网站。图书。提示。代码示例。"
+    },
+    "paypalButton":{
+        "p1":"邀请我喝咖啡。"
     }
 
 }

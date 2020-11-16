@@ -19,14 +19,14 @@ const Footer = () => {
             <div className='iconsDIV'>
                 <div className='icons'>
                     <div>
-                        <a href='https://github.com/jotasenator' title='visita mi Github'
+                        <a href='https://github.com/jotasenator' title='Github'
                             target='_blank'
                             rel="nofollow noopener noreferrer">
                             <GitHubIcon /> </a>
                     </div>
                     <div>
                         <a href='https://www.linkedin.com/in/maykel-contreras-camacho-7a1545110/'
-                            title='visita mi Linkedin'
+                            title='Linkedin'
                             target='_blank' rel="nofollow noopener noreferrer">
                             <LinkedInIcon /></a>
                     </div>

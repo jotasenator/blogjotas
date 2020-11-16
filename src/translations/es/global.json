@@ -31,6 +31,17 @@
     "mapView":{
         "p1":"Hola! "
 
+    },
+    "buttonTop":{
+        "p1":"arriba "
+
+    },
+    "metaTags":{
+        "p1":"Principales sitios web para aprender Python y JavaScript. Libros. Consejos. Ejemplos de código. "
+
+    },
+    "paypalButton":{
+        "p1":"invítame a un café. "
     }
 
 

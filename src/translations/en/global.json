@@ -16,8 +16,8 @@
         "p1":"October "
     },
     "page404":{
-        "p1":"404 - Not Found! ",
-        "p2":" does not exists... ",
+        "p1":"404 - Not found! ",
+        "p2":" does not exist... ",
         "p3":"Home"
     },
     "contacto":{
@@ -32,6 +32,17 @@
     "mapView":{
         "p1":"Hello! "
 
-    }
+    },
+    "buttonTop":{
+        "p1":"up "
 
+    },
+    "metaTags":{
+        "p1":"Main websites to learn Python and JavaScript. Books. Tips. Code examples. "
+
+    },
+    "paypalButton":{
+        "p1":"invite me to a coffee. "
+    }
 }
+

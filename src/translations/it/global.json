@@ -16,8 +16,8 @@
         "p1":"Ottobre "
     },
     "page404":{
-        "p1":"404 - Not Found! ",
-        "p2":" does not exists... ",
+        "p1":"404 - Non trovato! ",
+        "p2":" non esiste... ",
         "p3":"Inizio"
     },
     "contacto":{
@@ -33,6 +33,17 @@
     "mapView":{
         "p1":"Ciao! "
 
+    },
+    "buttonTop":{
+        "p1":"su "
+
+    },
+    "metaTags":{
+        "p1":"I migliori siti web per imparare Python e JavaScript. Libri. Suggerimenti. Esempi di codice. "
+
+    },
+    "paypalButton":{
+        "p1":"invitami a un caffè."
     }
 
 }

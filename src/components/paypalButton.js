@@ -1,8 +1,11 @@
 import React from 'react';
 import pic from '../images/qr paypal/QR Code.png'
+import { useTranslation } from 'react-i18next';
+
 
 
 const PaypalButton = () => {
+    const { t, i18n } = useTranslation('global');
 
     return (
         < div className='paypal' >
@@ -15,9 +18,10 @@ const PaypalButton = () => {
                     <input type="hidden" name="business" value="contrerassenator@gmail.com" />
                     <input type="hidden" name="currency_code" value="USD" />
                     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                        border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+                        border="0" name="submit" title={t('paypalButton.p1')}
                         alt="Donate with PayPal button" />
-                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                    <img alt="" border="0"
+                        src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
                 </form>
             </div>
         </div >
