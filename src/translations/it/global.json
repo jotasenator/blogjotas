@@ -19,6 +19,20 @@
         "p1":"404 - Not Found! ",
         "p2":" does not exists... ",
         "p3":"Inizio"
+    },
+    "contacto":{
+        "p1":"Tirati su!",
+        "p2":"Qualsiasi motivo è utile per parlare, condividere conoscenze e rimanere in contatto.",
+        "p3":"il tuo nome",
+        "p4":"raccontami la tua storia ...",
+        "p5":"Spedire",
+        "p6":"email@esempio.com"
+
+
+    },
+    "mapView":{
+        "p1":"Ciao! "
+
     }
 
 }

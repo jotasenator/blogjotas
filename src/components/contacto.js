@@ -1,14 +1,15 @@
 import React from 'react';
 import MapView from './mapView'
+import { useTranslation } from 'react-i18next';
 
 
 const Contacto = () => {
+    const { t, i18n } = useTranslation('global');
 
     return (
         <div className='container'>
-            <h1>¡anímate!</h1>
-            <p>Cualquier motivo es bueno para conversar, compartir conocimentos,
-            y estar en contacto.
+            <h1>{t('contacto.p1')}</h1>
+            <p>{t('contacto.p2')}
             </p>
             <form
                 method='post'
@@ -19,13 +20,13 @@ const Contacto = () => {
                 autocomplete='off'
                 novalidate
             >
-                <input type='text' placeholder='tu nombre' name='nick' />
-                <input type='mail' placeholder='email@example.com '
+                <input type='text' placeholder={t('contacto.p3')} name='nick' />
+                <input type='mail' placeholder={t('contacto.p6')}
                     pattern='[A-Za-z0-9._%+-]{3,}@[a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})'
                     required
                     name='correo' />
-                <textarea name="mensaje" placeholder='Cuéntame tu historia...'></textarea>
-                <input className='enviar' type='submit' value='Enviar' />
+                <textarea name="mensaje" placeholder={t('contacto.p4')}></textarea>
+                <input className='enviar' type='submit' value={t('contacto.p5')} />
             </form>
             <div className='map'>
                 <MapView />

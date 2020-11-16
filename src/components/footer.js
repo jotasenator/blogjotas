@@ -10,9 +10,7 @@ const Footer = () => {
     const { t, i18n } = useTranslation('global');
 
     return (
-
         <div className='footer'>
-
             <div>
                 <div className='jotas'>
                     <li><p>Blog de j</p><p className='rotate'>oTa</p><p>s</p></li>
@@ -37,8 +35,6 @@ const Footer = () => {
             </div>
             <PaypalButton />
         </div >
-
-
     )
 }
 

@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/navBar'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import MyHistoryPython from './components/myHistoryPython'
-import MyHistoryJS from './components/myHistoryJS'
-import Inicio from './components/inicio'
-import Contacto from './components/contacto'
-import Footer from './components/footer';
-import ButtonTop from './components/buttonTop'
 import Helmet from 'react-helmet'
 import Page404 from './components/page404'
-import AppLayout from './components/app.layout'
+import Navbar from './components/navBar'
+import Footer from './components/footer'
+import ButtonTop from './components/buttonTop'
+import Inicio from './components/inicio'
+import Contacto from './components/contacto'
+import MyHistoryPython from './components/myHistoryPython'
+import MyHistoryJS from './components/myHistoryJS'
+
 
 
 
@@ -47,11 +47,16 @@ function App() {
 
       <BrowserRouter>
         < div className="App">
+          <Navbar />
           <Switch>
-            <Route exact path='/' component={AppLayout} />
-            <Route path='/404-not-found' component={Page404} />
-
+            <Route exact path='/' component={Inicio} />
+            <Route path='/python' component={MyHistoryPython} />
+            <Route path='/javascript' component={MyHistoryJS} />
+            <Route path='/contacto' component={Contacto} />
+            <Route component={Page404} />
           </Switch>
+          <ButtonTop />
+          <Footer />
         </div >
       </BrowserRouter >
 

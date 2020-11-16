@@ -17,8 +17,20 @@
     },
     "page404":{
         "p1":"404 - No Encontrado! ",
-        "p2":" no existe... ",
+        "p2":" no existe :( ",
         "p3":"Inicio"
+    },
+    "contacto":{
+        "p1":"Anímate! ",
+        "p2":"Cualquier motivo es bueno para conversar, compartir conocimentos, y estar en contacto.",
+        "p3":"tu nombre",
+        "p4":"cuéntame tu historia...",
+        "p5":"Enviar",
+        "p6":"email@ejemplo.com"
+    },
+    "mapView":{
+        "p1":"Hola! "
+
     }
 
 

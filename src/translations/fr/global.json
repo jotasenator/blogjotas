@@ -19,6 +19,18 @@
         "p1":"404 - Not Found! ",
         "p2":" does not exists... ",
         "p3":"Commencer"
+    },
+    "contacto":{
+        "p1":"Courage! ",
+        "p2":"Toute raison est bonne pour parler, partager des connaissances et rester en contact.",
+        "p3":"ton nom",
+        "p4":"raconte-moi ton histoire ...",
+        "p5":"Envoyer",
+        "p6":"email@exemple.com"
+    },
+    "mapView":{
+        "p1":"Salut! "
+
     }
 
 }

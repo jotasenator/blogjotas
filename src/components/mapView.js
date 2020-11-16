@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+import { useTranslation } from 'react-i18next';
 
 let DefaultIcon = L.icon({
     iconUrl: icon,
@@ -18,6 +19,7 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const MapView = () => {
+    const { t, i18n } = useTranslation('global');
     const position = [22.472166, -83.637740]
 
     return (
@@ -28,7 +30,7 @@ const MapView = () => {
             />
             <Marker position={position} >
                 <Popup>
-                    <p>¡Hola!</p>
+                    <p>{t('mapView.p1')}</p>
                 </Popup>
             </Marker>
         </MapContainer >

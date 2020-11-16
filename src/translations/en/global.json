@@ -19,6 +19,19 @@
         "p1":"404 - Not Found! ",
         "p2":" does not exists... ",
         "p3":"Home"
+    },
+    "contacto":{
+        "p1":"Cheer up!",
+        "p2":"Any reason is good to talk, share knowledge, and stay in touch.",
+        "p3":"your name",
+        "p4":"tell me your story...",
+        "p5":"Send",
+        "p6":"email@example.com"
+
+    },
+    "mapView":{
+        "p1":"Hello! "
+
     }
 
 }
