@@ -10,6 +10,7 @@ import Footer from './components/footer';
 import ButtonTop from './components/buttonTop'
 import Helmet from 'react-helmet'
 import Page404 from './components/page404'
+import AppLayout from './components/app.layout'
 
 
 
@@ -46,19 +47,14 @@ function App() {
 
       <BrowserRouter>
         < div className="App">
-          <Navbar />
           <Switch>
-            <Route exact path='/' component={Inicio} />
-            <Route path='/python' component={MyHistoryPython} />
-            <Route path='/javascript' component={MyHistoryJS} />
-            <Route path='/contacto' component={Contacto} />
-            <Route component={Page404} />
+            <Route exact path='/' component={AppLayout} />
+            <Route path='/404-not-found' component={Page404} />
 
           </Switch>
         </div >
       </BrowserRouter >
-      <ButtonTop />
-      <Footer />
+
 
     </div>
 
