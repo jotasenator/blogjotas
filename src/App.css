@@ -69,6 +69,9 @@ body {
   background-color: #333333;
   border: 15px #333333;
 }
+.buttonSelect {
+  display: none;
+}
 /*container*/
 .container {
   min-height: 90%;
@@ -195,6 +198,7 @@ textarea {
   flex-direction: row;
   align-items: center;
 }
+/*page 404*/
 .NF404 {
   display: flex;
   flex-direction: row;
@@ -225,10 +229,14 @@ textarea {
 }
 /*media queries*/
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 736px) {
   .navBar ul {
     display: flex;
     flex-direction: column;
+    margin-left: -40px;
+  }
+  .buttonSelect {
+    display: flex;
   }
   .footer {
     display: flex;
@@ -245,16 +253,16 @@ textarea {
     display: none;
   }
   .container {
-    width: 90%;
+    width: 80%;
+    margin-bottom: 30px;
   }
   p,
   ol,
   ul {
     word-wrap: break-word;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 17px;
     text-align: left;
-    text-align: unset;
   }
   .sliderSize {
     margin-bottom: 20px;
@@ -276,5 +284,59 @@ textarea {
   }
   .formLanguage {
     width: 220px;
+  }
+  .languages {
+    display: none;
+  }
+  .me {
+    margin: 0px 5px;
+  }
+  .me-language360 {
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+  }
+  .toTop {
+    margin-bottom: -30px;
+  }
+}
+@media screen and (max-width: 540px) {
+}
+@media screen and (min-width: 540px) and (max-width: 736px) {
+  .paypal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .qr {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navBar ul a {
+    padding: 8px;
+  }
+  .footer {
+    bottom: 0;
+    position: fixed;
+    height: 100px;
+  }
+  .toTop {
+    margin-bottom: 100px;
+  }
+  p,
+  ol,
+  ul {
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: left;
+  }
+  .container {
+    width: 90%;
+  }
+  .navBar ul {
+    padding-left: 10px;
   }
 }

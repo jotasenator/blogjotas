@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import Me from './navbarPic'
 import { useTranslation } from 'react-i18next';
 import Languages from './buttonLanguages'
+import ButtonSelectLanguage from './buttonSelect'
 
 
 const Navbar = () => {
@@ -19,10 +20,17 @@ const Navbar = () => {
                 <li><NavLink to='/javascript'>Javascript</NavLink></li>
                 <div className='toRight'>
                     <li><NavLink to='/contacto'>{t('navBar.p2')}</NavLink></li>
-                    <li><Me /></li>
+                    <li >
+                        <div className='me-language360'>
+                            <Me />
+                            <div className='language360'>
+                                <ButtonSelectLanguage />
+                            </div>
+                        </div>
+                    </li>
                 </div>
 
-            </ul>
+            </ul >
             <Languages />
         </nav >
 
