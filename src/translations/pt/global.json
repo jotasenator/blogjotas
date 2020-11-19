@@ -41,6 +41,26 @@
     },
     "paypalButton":{
         "p1":"me convide para um café."
+    },
+    "myHistoryJS":{
+        "p1":"minha história com JavaScript",
+        "p2":"Você achou que a viagem ia acabar aí, certo?",
+        "p3":"O ser humano, para o bem ou para o mal, está bastante insatisfeito e sempre quer mais.",
+        "p4":"Fiquei curioso ... Certamente acredito que nada é impossível com um pouco de dedicação e o aprendizado sempre vai ser mais rápido do que quando eu não tinha ideia nenhuma.",
+        "p5":"Então, após 7 meses com Python, comecei a aprender JavaScript (HTML e CSS também) porque me sentia atraído pelo desenvolvimento web, especificamente a parte conhecida como Front-End. Além disso, o Javascript também é considerado uma linguagem de programação menos complicada do que outras. É que com apenas o navegador da web instalado em seu computador você pode fazer coisas no console que está integrado. Uma maravilha.",
+        "p6":"Digo que, embora você possa escolher o programa que deseja para o preenchimento automático e revisão do seu código, há uma forte tendência entre meus conhecidos do Visual Studio Code. Já estou percebendo o porquê. Instale-o aqui:",
+        "p7":"Hoje o Javascript é uma das linguagens mais populares do mundo e é usado para adicionar interatividade a páginas da web, processar dados, bem como criar diferentes tipos de aplicativos (aplicativos móveis, aplicativos de desktop, jogos, etc.)",
+        "p8":"Tendo perfis nos sites mencionados em minha outra história, dediquei-me a fazer perguntas e reunir informações para estudar. Ressalto que sempre acesso o aplicativo móvel SoloLearn para ter uma primeira abordagem ao idioma e automaticamente depois uso o ",
+        "p9":"para estudar e praticar. O exposto, junto com os livros que compartilharei com vocês imediatamente, considero uma mistura dos mais interessantes.",
+        "p10":"Para não perder o hábito, mostro aqui alguns programas que fiz no início:",
+        "p11":"Em algum momento comecei a conversar com minha esposa sobre os signos do zodíaco e não tinha nenhuma fonte de informação à mão para esclarecer alguns detalhes com as datas etc. Portanto, a primeira coisa que fiz seriamente nesta linguagem foi o seguinte:",
+        "p12":"Um dia, eu estava esperando para entrar em um restaurante, quando me ocorreu tentar simular a fila. Aqui eu mostro para você:",
+        "p13":"No meu antigo trabalho era necessário, dadas as coordenadas de estacionamento e orientação de um teodolito, ser capaz de calcular o ângulo de implantação e a distância de um terceiro ponto. Resolvi assim:",
+        "p14":"Bem, é nisso que estou atualmente. Estou estudando uma biblioteca JavaScript conhecida como React.js. Com ela estou fazendo esse tipo de blog onde vou mostrar o caminho que tenho seguido e também me dar a conhecer nesta área. Acho que essa informação pode ser útil simplesmente porque gostaria de ter encontrado algo semelhante quando comecei.",
+        "p15":"Com tempo e prática, espero ser capaz de criar páginas da web dinâmicas e interessantes. Sempre um passo de cada vez, que nada mais bonito do que um dia após o outro. Este é apenas o começo.",
+        "p16":"É neste ponto que compartilho com vocês o melhor site para aprender não apenas HTML5, CCS3 e JavaScript, mas também Python e muito mais:",
+        "p17":"Se você quer aprender Javascript e, portanto, desenvolvimento web, tenho certeza de que não verá seu navegador da mesma forma.",
+        "p18":"Vejo você nas redes."
     }
 
 

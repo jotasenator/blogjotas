@@ -43,6 +43,26 @@
     },
     "paypalButton":{
         "p1":"invite me to a coffee. "
+    },
+    "myHistoryJS":{
+        "p1":"my story with JavaScript",
+        "p2":"You thought the trip would end there, right?",
+        "p3":"The human being, for better or for worse, is quite dissatisfied, and always wants more.",
+        "p4":"I was curious… I certainly believe that nothing is impossible with a little dedication and learning is always going to be faster anyway than when I had no idea at all.",
+        "p5":"So after 7 months with Python I started to learn JavaScript (HTML and CSS too) because I was attracted to web development, specifically the part known as Front-End. Besides that Javascript is also considered a less complicated programming language than others. It is that with only having the web browser installed on your computer you can do things in the console that is integrated. Awsome.",
+        "p6":"I tell you that, although you can choose the program you want for the autocompletion and revision of your code, there is a strong trend among my acquaintances from Visual Studio Code. I'm already realizing why. Install it from here:",
+        "p7":"Today Javascript is one of the most popular languages ​​in the world and is used to add interactivity to web pages, process data, as well as create different types of applications (mobile applications, desktop applications, games, etc.)",
+        "p8":"Having profiles on the websites mentioned in my other story, I dedicated myself to asking questions and gathering information to study. I emphasize that I always access the SoloLearn mobile application to have the first approach to the language and automatically afterwards I use",
+        "p9":"to study and practice it. The above, together with the books that I will share with you immediately, I consider a mixture of the most interesting.",
+        "p10":"In order not to lose the habit, here I show you some programs that I made at the beginning:",
+        "p11":"At some point I start to talk with my wife about the zodiac signs and I did not have any source of information at hand to clarify certain details with the dates etc. So the first thing I seriously did in this language was the following:",
+        "p12":"One day I was waiting to enter a restaurant when it occurred to me to try to simulate the line. Here I show you:",
+        "p13":"In my old job it was necessary, given the parking coordinates and orientation of a theodolite, to be able to calculate the stake out angle and the distance of a third point. I solved it this way:",
+        "p14":"Well, that's what I'm currently at. I am studying a JavaScript library known as React.js. With her I am doing this kind of blog where I show you the path that I followed and I also make myself known in this area. I think this information can be useful simply because I wish I had found something similar when I started.",
+        "p15":"With time and practice I hope to be able to make dynamic and interesting web pages. Always one step at a time, that there is nothing more beautiful than one day after another. This is just the beginning.",
+        "p16":"It is at this point that I share with you the best website to learn not only HTML5, CCS3 and JavaScript but also Python and much more:",
+        "p17":"If you want to learn Javascript, and therefore web development, I am sure you will not see your web browser in the same way.",
+        "p18":"See you on the networks."
     }
 }
 
