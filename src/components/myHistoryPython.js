@@ -47,7 +47,7 @@ const MyHistoryPython = () => {
                     {t('myHistoryPython.p15')}
 
                     </li>
-                    <li>{t('myHistoryPython.p16')} <a href='https://www.youtube.com/watch?v=G2FCfQj-9ig&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS' target='_blank'
+                    <li className='justifyLeft'>{t('myHistoryPython.p16')} <a href='https://www.youtube.com/watch?v=G2FCfQj-9ig&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS' target='_blank'
                         rel='nofollow noopener noreferrer'
                     >https://www.youtube.com/watch?v=G2FCfQj-9ig&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS</a>.
 
@@ -95,11 +95,11 @@ const MyHistoryPython = () => {
                         target="_blank" rel="nofollow noopener noreferrer">
                         https://github.com/jotasenator/SimuladorMundialFutbol2018</a>.
             </li>
-                <li>{t('myHistoryPython.p34')}  <a href='https://github.com/jotasenator/leer-csv-busqueda-contenedores'
+                <li className='justifyLeft'>{t('myHistoryPython.p34')}  <a href='https://github.com/jotasenator/leer-csv-busqueda-contenedores'
                     target="_blank" rel="nofollow noopener noreferrer">
                     https://github.com/jotasenator/leer-csv-busqueda-contenedores</a>.
                 </li>
-                <li>{t('myHistoryPython.p35')} <a href='https://github.com/jotasenator/piedra-papel-tijera'
+                <li className='justifyLeft'>{t('myHistoryPython.p35')} <a href='https://github.com/jotasenator/piedra-papel-tijera'
                     target="_blank" rel="nofollow noopener noreferrer">https://github.com/jotasenator/piedra-papel-tijera</a>.
             </li>
             </ul>

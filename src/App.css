@@ -95,7 +95,8 @@ ul {
 .pRef-inicio {
   text-align: left;
 }
-.lia li {
+.lia li,
+.justifyLeft {
   text-align: left;
 }
 
@@ -301,6 +302,9 @@ textarea {
   }
   .toTop {
     margin-bottom: -30px;
+  }
+  .pic404 {
+    display: none;
   }
 }
 @media screen and (max-width: 540px) {
