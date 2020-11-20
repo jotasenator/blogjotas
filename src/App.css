@@ -95,6 +95,9 @@ ul {
 .pRef-inicio {
   text-align: left;
 }
+.lia li {
+  text-align: left;
+}
 
 a:any-link {
   text-decoration: none;
@@ -182,7 +185,7 @@ textarea {
   margin-top: 50px;
   padding: 5px 5px;
   background-color: #333333;
-  height: 12%;
+  height: 100px;
   color: #999;
   position: fixed;
   bottom: 0;

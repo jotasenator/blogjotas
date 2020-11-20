@@ -46,12 +46,12 @@ const MyHistoryJS = () => {
             </ul>
 
             <p>{t('myHistoryJS.p10')}</p>
-            <ul>
-                <li>{t('myHistoryJS.p11')} <p><a href='https://github.com/jotasenator/javascript/blob/master/ejercicio%20Mixto%20signo%20zodiacal.js'
+            <ul className='lia'>
+                <li>{t('myHistoryJS.p11')} <a href='https://github.com/jotasenator/javascript/blob/master/ejercicio%20Mixto%20signo%20zodiacal.js'
                     target='_blank' rel=' nofollow noopener noreferrer' >
                     https://github.com/jotasenator/javascript/blob/master/ejercicio%20Mixto%20signo%20zodiacal.js
                             </a>.
-                            </p>
+
 
                 </li>
                 <li>
