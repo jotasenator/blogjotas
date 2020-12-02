@@ -11,6 +11,7 @@ books
 /coverage
 
 # production
+/build
 
 
 # misc
