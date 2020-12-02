@@ -20,7 +20,7 @@ function App() {
         < div className="App">
           <Navbar />
           <Switch>
-            <Route exact path='/' component={Inicio} />
+            <Route exact path='jotasenator.github.io/blogjotas/' component={Inicio} />
             <Route path='/python' component={MyHistoryPython} />
             <Route path='/javascript' component={MyHistoryJS} />
             <Route path='/contacto' component={Contacto} />
