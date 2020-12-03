@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className='jotas'>
                     <li><p>Blog de j</p><p className='rotate'>oTa</p><p>s</p></li>
                 </div>
-                <li><NavLink exact to='/'>{t('navBar.p1')}</NavLink></li>
+                <li><NavLink exact to='/blogjotas'>{t('navBar.p1')}</NavLink></li>
                 <li><NavLink to='/python'>Python</NavLink></li>
                 <li><NavLink to='/javascript'>Javascript</NavLink></li>
                 <div className='toRight'>
