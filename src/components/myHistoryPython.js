@@ -43,8 +43,7 @@ const MyHistoryPython = () => {
 
                 </li>
                     <li><a href={pdf4} target='_blank' rel='nofollow noopener noreferrer'
-                        download='Python_for_Dummies.pdf'>Python_for_Dummies.pdf</a>.
-                    {t('myHistoryPython.p15')}
+                        download='Python_for_Dummies.pdf'>Python_for_Dummies.pdf</a>. {t('myHistoryPython.p15')}
 
                     </li>
                     <li className='justifyLeft'>{t('myHistoryPython.p16')} <a href='https://www.youtube.com/watch?v=G2FCfQj-9ig&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS' target='_blank'
