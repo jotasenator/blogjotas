@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/blogjotas/static/css/main.da982462.chunk.css",
-    "main.js": "/blogjotas/static/js/main.8ed80ba6.chunk.js",
-    "main.js.map": "/blogjotas/static/js/main.8ed80ba6.chunk.js.map",
+    "main.css": "/blogjotas/static/css/main.0988b988.chunk.css",
+    "main.js": "/blogjotas/static/js/main.78945b6d.chunk.js",
+    "main.js.map": "/blogjotas/static/js/main.78945b6d.chunk.js.map",
     "runtime-main.js": "/blogjotas/static/js/runtime-main.ed5efe60.js",
     "runtime-main.js.map": "/blogjotas/static/js/runtime-main.ed5efe60.js.map",
     "static/css/2.b4ebbe46.chunk.css": "/blogjotas/static/css/2.b4ebbe46.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.bdbceeb2.chunk.js.map": "/blogjotas/static/js/2.bdbceeb2.chunk.js.map",
     "index.html": "/blogjotas/index.html",
     "static/css/2.b4ebbe46.chunk.css.map": "/blogjotas/static/css/2.b4ebbe46.chunk.css.map",
-    "static/css/main.da982462.chunk.css.map": "/blogjotas/static/css/main.da982462.chunk.css.map",
+    "static/css/main.0988b988.chunk.css.map": "/blogjotas/static/css/main.0988b988.chunk.css.map",
     "static/js/2.bdbceeb2.chunk.js.LICENSE.txt": "/blogjotas/static/js/2.bdbceeb2.chunk.js.LICENSE.txt",
     "static/media/A Smarter Way to Learn JavaScript.49f521c3.pdf": "/blogjotas/static/media/A Smarter Way to Learn JavaScript.49f521c3.pdf",
     "static/media/Beginning JavaScript - 5th Ed.571e9ded.pdf": "/blogjotas/static/media/Beginning JavaScript - 5th Ed.571e9ded.pdf",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.ed5efe60.js",
     "static/css/2.b4ebbe46.chunk.css",
     "static/js/2.bdbceeb2.chunk.js",
-    "static/css/main.da982462.chunk.css",
-    "static/js/main.8ed80ba6.chunk.js"
+    "static/css/main.0988b988.chunk.css",
+    "static/js/main.78945b6d.chunk.js"
   ]
 }
