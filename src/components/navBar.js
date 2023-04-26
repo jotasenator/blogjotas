@@ -1,13 +1,14 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
-import Me from './navbarPic'
+import { NavLink } from 'react-router-dom';
+import Me from './navbarPic';
 import { useTranslation } from 'react-i18next';
-import Languages from './buttonLanguages'
-import ButtonSelectLanguage from './buttonSelect'
+import Languages from './buttonLanguages';
+import ButtonSelectLanguage from './buttonSelect';
 
 
-const Navbar = () => {
-    const { t, i18n } = useTranslation('global');
+const Navbar = () =>
+{
+    const { t, i18n } = useTranslation( 'global' );
 
     return (
         <nav className='navBar'>
@@ -15,11 +16,11 @@ const Navbar = () => {
                 <div className='jotas'>
                     <li><p>Blog de j</p><p className='rotate'>oTa</p><p>s</p></li>
                 </div>
-                <li><NavLink exact to='/blogjotas'>{t('navBar.p1')}</NavLink></li>
+                <li><NavLink exact to='/'>{ t( 'navBar.p1' ) }</NavLink></li>
                 <li><NavLink to='/python'>Python</NavLink></li>
                 <li><NavLink to='/javascript'>Javascript</NavLink></li>
                 <div className='toRight'>
-                    <li><NavLink to='/contacto'>{t('navBar.p2')}</NavLink></li>
+                    <li><NavLink to='/contacto'>{ t( 'navBar.p2' ) }</NavLink></li>
                     <li >
                         <div className='me-language360'>
                             <Me />
@@ -34,7 +35,7 @@ const Navbar = () => {
             <Languages />
         </nav >
 
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
