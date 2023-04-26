@@ -2,12 +2,12 @@ import React from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import { useTranslation } from 'react-i18next';
-import PaypalButton from './paypalButton';
 
 
 
-const Footer = () => {
-    const { t, i18n } = useTranslation('global');
+const Footer = () =>
+{
+    const { t, i18n } = useTranslation( 'global' );
 
     return (
         <div className='footer'>
@@ -31,11 +31,10 @@ const Footer = () => {
                             <LinkedInIcon /></a>
                     </div>
                 </div>
-                <div>{t('footer.p1')} 2020.</div>
+                <div>{ t( 'footer.p1' ) } 2020.</div>
             </div>
-            <PaypalButton />
         </div >
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

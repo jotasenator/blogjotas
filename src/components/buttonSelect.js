@@ -1,52 +1,31 @@
-import React from 'react'
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react'
 
-export default function ButtonSelectLanguage() {
-    const { t, i18n } = useTranslation('global');
+export default function ButtonSelectLanguage ()
+{
+    const { t, i18n } = useTranslation( 'global' );
+
+    const handleChange = ( event ) =>
+    {
+        i18n.changeLanguage( event.target.value );
+    };
 
     return (
         <>
             <form>
-
-                {/* input language seleccion*/}
-
-                <select className='buttonSelect'>
-                    <option onClick={() => { i18n.changeLanguage('es') }}  >
-                        Español
-                    </option>
-                    <option onClick={() => { i18n.changeLanguage('en') }}>
-                        English
-                    </option>
-                    <option onClick={() => { i18n.changeLanguage('it') }}>
-                        Italiano
-                    </option>
-                    <option onClick={() => { i18n.changeLanguage('fr') }}>
-                        Français
-                    </option>
-                    <option onClick={() => { i18n.changeLanguage('pt') }}>
-                        Português
-                    </option>
-                    <option onClick={() => { i18n.changeLanguage('de') }}>
-                        Deutsch
-                    </option>
-                    <option onClick={() => { i18n.changeLanguage('hi') }}>
-                        हिन्दी
-                    </option>
-                    <option onClick={() => { i18n.changeLanguage('ru') }}>
-                        Pусский
-                    </option>
-                    <option onClick={() => { i18n.changeLanguage('zh') }}>
-                        中文
-                    </option>
-                    <option onClick={() => { i18n.changeLanguage('ja') }}>
-                        日本語
-                    </option>
+                <select className='buttonSelect' onChange={ handleChange }>
+                    <option value='en'>English</option>
+                    <option value='es'>Español</option>
+                    <option value='it'>Italiano</option>
+                    <option value='fr'>Français</option>
+                    <option value='pt'>Português</option>
+                    <option value='de'>Deutsch</option>
+                    <option value='hi'>हिन्दी</option>
+                    <option value='ru'>Pусский</option>
+                    <option value='zh'>中文</option>
+                    <option value='ja'>日本語</option>
                 </select>
             </form>
-
-
         </>
-
-    )
+    );
 }
