@@ -22,11 +22,10 @@ const ButtonTop = () =>
     };
 
     const location = useLocation();
-    console.log( location.pathname );
 
     return (
         <div className='toTop' title={ t( 'buttonTop.p1' ) }>
-            { location.pathname !== '/blogjotas' && <ArrowDropUpIcon className='buttonToTop' onClick={ ToTop } /> }
+            { ( location.pathname !== '/blogjotas' && location.pathname !== '/' ) && <ArrowDropUpIcon className='buttonToTop' onClick={ ToTop } /> }
         </div >
 
     );
